@@ -74,10 +74,10 @@ dense_3 (Dense)                 | (None, 7)              | 7,175
 4. Open a web browser and go to http://127.0.0.1:5000 to use the Music Player App with Facial Mood Detection.
 
 ## Features
--Facial Mood Detection: Detects user's emotions through facial expressions in real-time.
--Music Recommendation: Recommends music tracks based on the detected mood.
--API Endpoint: Provides a Flask API endpoint for integrating the model with other applications.
--Privacy: Ensures compliance with privacy regulations and ethical standards related to facial recognition technology.
+- Facial Mood Detection: Detects user's emotions through facial expressions in real-time.
+- Music Recommendation: Recommends music tracks based on the detected mood.
+- API Endpoint: Provides a Flask API endpoint for integrating the model with other applications.
+- Privacy: Ensures compliance with privacy regulations and ethical standards related to facial recognition technology.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with any improvements or features you'd like to add.
