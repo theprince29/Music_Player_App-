@@ -1,6 +1,9 @@
 # Music Web App
 This project is a Music Web App designed to provide a seamless and enjoyable music listening experience.
 
+## Project Acritecture
+![image](https://github.com/theprince29/Music_Player_App-/assets/113759522/786c0f76-6876-4a7b-963c-0a4a283f4437)
+
 ### Interactive User Interface
 ![Screenshot 2024-04-25 071259](https://github.com/theprince29/Music_Player_App-/assets/113759522/025ddbdc-04c9-4d64-889a-8df4f79bd861)
 
