@@ -1,0 +1,45 @@
+/* SongEntry.css */
+
+/* Container for each song entry */
+.entry {
+  display: flex; /* Display items in a flex layout */
+  align-items: center; /* Vertically center items */
+  padding: 10px; /* Add padding to the container */
+  border-bottom: 1px solid #ccc; /* Add a bottom border for separation */
+}
+
+/* Styling for the song image */
+.entry-image {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  margin-right: 20px; /* Add margin for spacing */
+}
+
+/* Flex container for the details of each song */
+.entry-details {
+  flex: 1; /* Allow the details to take up remaining space */
+}
+
+/* Styling for the title of the song */
+.entry-title {
+  font-weight: bold; /* Make the title bold */
+  margin: 0; /* Remove any margin */
+}
+
+/* Styling for the artist and album name */
+.entry-subtitle,
+.entry-album-name {
+  margin: 0; /* Remove any margin */
+  color: #333; /* Set color for consistency */
+}
+
+/* Styling for the song list container */
+.song-list-container {
+  max-height: 400px; /* Set maximum height for scrollability */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Remove default list style for li elements */
+li {
+  list-style: none;
+}

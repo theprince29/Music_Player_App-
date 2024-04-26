@@ -1,0 +1,31 @@
+.emo-container {
+    text-align: center; /* Center align the content */
+    margin-top: 20px; /* Add some top margin */
+  }
+  
+  .emo-button {
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 16px; /* Set font size */
+    background-color: #E99D72; /* Set button background color */
+    color: #ffffff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add cursor pointer */
+  }
+  
+  .emo-button:hover {
+    background-color: #e99e80d6; /* Change background color on hover */
+  }
+  
+  .emo-result {
+    margin-top: 20px; /* Add top margin for the result */
+    font-size: 18px; /* Set font size for the result */
+    color: black;
+
+  }
+  
+
+  .emo-img
+  {
+    height: 120px;
+  }

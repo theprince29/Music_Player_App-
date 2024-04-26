@@ -1,0 +1,21 @@
+.feed
+{
+    
+    display: flex;
+    flex-direction: row; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: space-around; /* Center items vertically */
+    height: 100vh; 
+}
+
+.feed-content {
+    max-width: 600px; /* Set maximum width for content */
+    padding: 20px; /* Add some padding around the content */
+    border-radius: 10px; /* Add rounded corners to the container */
+    background-color: #ffffff; /* Set background color for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    color: black;
+    /* margin-right: 20px; */
+  }
+  
+
