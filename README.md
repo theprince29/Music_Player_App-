@@ -1,4 +1,4 @@
-# Music Web App
+# Music Player - Recommend Muisc based on Facial Mood Detection
 This project is a Music Web App designed to provide a seamless and enjoyable music listening experience.
 
 ## Project Acritecture
