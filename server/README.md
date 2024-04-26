@@ -47,6 +47,7 @@ dense_2 (Dense)                 | (None, 1024)           | 31,720,448
 dropout_2 (Dropout)             | (None, 1024)           | 0
 dense_3 (Dense)                 | (None, 7)              | 7,175
 
+![image](https://github.com/theprince29/Music_Player_App-/assets/113759522/79968dce-6015-466f-ba9f-4c58664b92a3)
 
 
 ## Server Directory Structure
