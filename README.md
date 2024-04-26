@@ -43,13 +43,13 @@ npm run dev
 Open a web browser and go to http://localhost:3000 to access the Music Web App.
 
 ## Technologies Used
--React: A JavaScript library for building user interfaces.
--React Router: Declarative routing for React applications.
--Axios: Promise-based HTTP client for making API requests.
--React Icons: Library providing popular icon packs as React components.
--Vite: Fast and opinionated web dev build tool that serves your code via native ES Module imports during development.
+- React: A JavaScript library for building user interfaces.
+- React Router: Declarative routing for React applications.
+- Axios: Promise-based HTTP client for making API requests.
+- React Icons: Library providing popular icon packs as React components.
+- Vite: Fast and opinionated web dev build tool that serves your code via native ES Module imports during development.
 Spotify Integration
--The spotify.jsx file contains functions for interacting with the Spotify API to fetch song recommendations based on the user's detected emotion.
+- The spotify.jsx file contains functions for interacting with the Spotify API to fetch song recommendations based on the user's detected emotion.
 
 ## Authentication
 To use the Spotify API, you'll need to obtain a client ID from the Spotify Developer Dashboard and set up your redirect URI. Replace the clientId and redirectUri variables in spotify.jsx with your own credentials.
