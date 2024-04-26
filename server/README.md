@@ -3,7 +3,7 @@
 This project is a Music Player App with Facial Mood Detection, powered by Flask to generate a model API. 
 It enhances the music listening experience by dynamically selecting music tracks based on the user's detected mood through facial expressions.
 
-## Machine Learning Model Concept
+## Model Concept Overview
 The Facial Mood Detection Machine Learning Model utilizes a Convolutional Neural Network (CNN) architecture trained on a dataset of labeled facial expressions. The model's objective is to classify the emotional states of individuals based on their facial features. The key steps involved in the model concept are as follows:
 
 - **Data Collection:** The model is trained on a diverse dataset of facial images depicting various emotional states, including happiness, sadness, anger, fear, surprise, and disgust. These images are collected from publicly available datasets and may undergo preprocessing steps such as resizing and normalization.
@@ -15,6 +15,39 @@ The Facial Mood Detection Machine Learning Model utilizes a Convolutional Neural
 - **Evaluation and Validation:** After training, the model's performance is evaluated using a separate validation dataset to assess its accuracy, precision, recall, and other performance metrics. The validation process helps ensure that the model generalizes well to unseen data and is not overfitting to the training data.
   
 - **Deployment:** Once trained and validated, the model is deployed as part of the Music Player App backend. It serves as the core component responsible for detecting users' facial expressions in real-time and inferring their emotional states.
+
+## Model Architecture Summary
+The CNN architecture used for facial mood detection comprises the following layers:
+
+- Convolutional Layers: Extract features from input images through convolution operations.
+  
+- Max Pooling Layers: Downsample feature maps to reduce spatial dimensions and extract dominant features.
+  
+- Batch Normalization Layers: Normalize activations to improve training stability and accelerate convergence.
+  
+- Dropout Layers: Regularize the model by randomly dropping units during training to prevent overfitting.
+  
+- Dense Layers: Perform classification based on learned features, with the final layer producing probabilities for each emotion class.
+The summary of the model architecture, including the output shape and parameter count for each layer, is provided in the table below:
+
+Layer (type)                    | Output Shape           | Param #
+------------------------------- | ---------------------- | -------
+conv2d_1 (Conv2D)               | (None, 48, 48, 32)     | 320
+conv2d_2 (Conv2D)               | (None, 48, 48, 64)     | 18,496
+batch_normalization             | (None, 48, 48, 64)     | 256
+max_pooling2d_1 (MaxPooling2D) | (None, 24, 24, 64)     | 0
+dropout (Dropout)               | (None, 24, 24, 64)     | 0
+conv2d_3 (Conv2D)               | (None, 24, 24, 128)    | 73,856
+conv2d_4 (Conv2D)               | (None, 22, 22, 256)    | 295,168
+batch_normalization_1           | (None, 22, 22, 256)    | 1,024
+max_pooling2d_2 (MaxPooling2D) | (None, 11, 11, 256)    | 0
+dropout_1 (Dropout)             | (None, 11, 11, 256)    | 0
+flatten_1 (Flatten)             | (None, 30976)          | 0
+dense_2 (Dense)                 | (None, 1024)           | 31,720,448
+dropout_2 (Dropout)             | (None, 1024)           | 0
+dense_3 (Dense)                 | (None, 7)              | 7,175
+
+
 
 ## Server Directory Structure
 - pycache: Contains compiled Python bytecode files.
