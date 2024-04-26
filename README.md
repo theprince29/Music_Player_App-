@@ -1,4 +1,4 @@
-# Music Player - Recommend Muisc based on Facial Mood Detection
+# Music Player - Recommend Music based on Facial Mood Detection
 This project is a Music Web App designed to provide a seamless and enjoyable music listening experience.
 
 ## Project Acritecture
@@ -12,11 +12,15 @@ This project is a Music Web App designed to provide a seamless and enjoyable mus
 
 
 ## Features
--User-Friendly Interface: Intuitive and responsive interface for easy navigation and control.
--Music Playback: Play, pause, skip, and repeat tracks effortlessly.
--Music Recommendations: Discover new music based on your preferences and listening history.
--Personalized Experience: Customize playlists and settings to tailor the music experience to your liking.
--Accessibility: Accessible design ensuring that all users can enjoy the app regardless of abilities.
+- User-Friendly Interface: Intuitive and responsive interface for easy navigation and control.
+
+- Music Playback: Play, pause, skip, and repeat tracks effortlessly.
+
+- Music Recommendations: Discover new music based on your preferences and listening history.
+
+- Personalized Experience: Customize playlists and settings to tailor the music experience to your liking.
+
+- Accessibility: Accessible design ensuring that all users can enjoy the app regardless of abilities.
 
 ## Installation
 
