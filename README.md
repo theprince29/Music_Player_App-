@@ -52,6 +52,7 @@ The fetchSongs function takes an emotion as input and returns a list of recommen
 
 ## Emotion Detection
 The Emo.jsx component handles emotion detection using a backend server. It makes a POST request to http://127.0.0.1:5000/emotion_detect to detect emotions from facial images. After receiving a response, it sets the detected emotion and image link states. Additionally, the component fetches songs based on the detected emotion using the fetchSongs function imported from spotify.jsx.
+- ### Facial Mood Detection Model Information [Click me](https://github.com/theprince29/Music_Player_App-/tree/main/server#readme)
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, feel free to open an issue or submit a pull request.
