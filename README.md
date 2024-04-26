@@ -1,6 +1,13 @@
 # Music Web App
 This project is a Music Web App designed to provide a seamless and enjoyable music listening experience.
 
+### Interactive User Interface
+![Screenshot 2024-04-25 071259](https://github.com/theprince29/Music_Player_App-/assets/113759522/025ddbdc-04c9-4d64-889a-8df4f79bd861)
+
+### Scan your face for mood detection 
+![Screenshot 2024-04-25 074423](https://github.com/theprince29/Music_Player_App-/assets/113759522/eded7087-5c1f-4996-a3b1-8de4e5271b2b)
+
+
 ## Features
 -User-Friendly Interface: Intuitive and responsive interface for easy navigation and control.
 -Music Playback: Play, pause, skip, and repeat tracks effortlessly.
